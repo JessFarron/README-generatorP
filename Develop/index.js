@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log("Creating Professional README.md File...");
-    console.log(responses); // with the spread method the responses are out into one object taking users response as value and the names assigned before as key.
+    //console.log(responses); // with the spread method the responses are out into one object taking users response as value and the names assigned before as key.
     writeToFile("./generated README/README.md", generateMarkdown({ ...responses })); //I thought this wasn´t possible. Callback funciton inside another. Is generateMarkdown function imported ? 
   });
 }
