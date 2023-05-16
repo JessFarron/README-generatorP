@@ -20,7 +20,8 @@ Before using the command-line application for generating professional README fil
 7. Copy the generated README.md file to your project repository and commit the changes.
 8. Please refer to the Professional [README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) for additional guidance on creating a high-quality README.
 
-## Screenshot
+## Usage video and screenshots
+### Screenshot
 
 ### Video walkthrough
 
