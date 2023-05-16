@@ -22,8 +22,11 @@ Before using the command-line application for generating professional README fil
 
 ## Usage video and screenshots
 ### Screenshot
+![image](https://github.com/JessFarron/README-generatorP/assets/126412050/bb03c3b0-cd3a-469b-abba-d92096c83091)
 
 ### Video walkthrough
+
+[readme generator walkthrough.webm](https://github.com/JessFarron/README-generatorP/assets/126412050/b06850ba-970f-4a3a-baba-0f178a959e83)
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify this application for your own purposes.
