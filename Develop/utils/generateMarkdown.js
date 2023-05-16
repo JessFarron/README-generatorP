@@ -1,31 +1,30 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  console.log(license)
   if (license !== "none") {
-    return `[![Github license](https://img.shields.io/badge/license-${license}-blue.svg)](https://opensource.org/licenses/MPL-2.0)`;
+    return `[![Github license](https://img.shields.io/badge/license-${license}-blue.svg)](${renderLicenseLink(license)})`;
+   
   }
   return "";
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-let link = "";
-
-if (license === 'MIT') {
-link = 'https://opensource.org/licenses/MIT';
-} else if (license === 'APACHE2.0') {
-link = 'https://opensource.org/licenses/Apache-2.0';
-} else if (license === 'MPL2.0') {
-link = 'https://opensource.org/licenses/MPL-2.0';
-} else if (license === 'BSD2') {
-link = 'https://opensource.org/licenses/BSD-2-Clause';
-} else if (license === 'BSD3') {
-link = 'https://opensource.org/licenses/BSD-3-Clause';
+const lic= license[0];
+if (lic === 'MIT') {
+return 'https://opensource.org/licenses/MIT';
+} else if (lic === 'APACHE2.0') {
+return 'https://opensource.org/licenses/Apache-2.0';
+} else if (lic === 'MPL2.0') {
+return'https://opensource.org/licenses/MPL-2.0';
+} else if (lic === 'BSD2') {
+  return 'https://opensource.org/licenses/BSD-2-Clause';
+} else if (lic === 'BSD3') {
+  return 'https://opensource.org/licenses/BSD-3-Clause';
 } else {
-  link = '';
+  return '';
   }
-
-return link;
 }
 
 
